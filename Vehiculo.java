@@ -3,9 +3,9 @@ public class Vehiculo {
     int modelo;
     int velocidadActual;
 
-    public void mostrarInfo() {
+    public void mostrarEstado() {
         System.out.println("marca: " + marca);
-        System.out.println("color: " + modelo);
+        System.out.println("modelo: " + modelo);
         System.out.println("velocidadActual: " + velocidadActual);
     }
 
@@ -17,6 +17,6 @@ public class Vehiculo {
         vehiculo1.velocidadActual = 20;
 
         
-        vehiculo1.mostrarInfo();
+        vehiculo1.mostrarEstado();
     }
 }
