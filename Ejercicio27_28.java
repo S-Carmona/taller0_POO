@@ -18,9 +18,9 @@ class CuentaEj27 {
 public class Ejercicio27_28 {
     public static void main(String[] args) {
         // Ejercicio 28
-        CuentaEj27 c1 = new CuentaEj27("001", "Sasha", 5000);
-        CuentaEj27 c2 = new CuentaEj27("002", "Juan", 300);
-        CuentaEj27 c3 = new CuentaEj27("003", "Maria", 1200);
+        CuentaEj27 c1 = new CuentaEj27("001", "Sasha", 500000);
+        CuentaEj27 c2 = new CuentaEj27("002", "Juan", 300000);
+        CuentaEj27 c3 = new CuentaEj27("003", "Maria", 1200000);
 
         c1.mostrarDatos();
         c2.mostrarDatos();
