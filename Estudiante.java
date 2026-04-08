@@ -5,7 +5,7 @@ public class Estudiante {
 
     public void mostrarInfo() {
         System.out.println("Nombre: " + nombre);
-        System.out.println("Código: " + codigo);
+        System.out.println("Codigo: " + codigo);
         System.out.println("Semestre: " + semestre);
     }
 
@@ -13,7 +13,7 @@ public class Estudiante {
         Estudiante sasha = new Estudiante();
 
         sasha.nombre = "Sasha Carmona";
-        sasha.codigo = 1254; // Reemplaza con tu código real de la UTB
+        sasha.codigo = 1254; 
         sasha.semestre = 2;
 
         
