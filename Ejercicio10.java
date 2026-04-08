@@ -11,11 +11,11 @@ public class Ejercicio10 {
     public static void main(String[] args) {
         CuentaEj10 cuenta1 = new CuentaEj10();
         cuenta1.titular = "Sasha";
-        cuenta1.saldo = 1000.0;
+        cuenta1.saldo = 1000;
 
         CuentaEj10 cuenta2 = new CuentaEj10();
         cuenta2.titular = "Pepe";
-        cuenta2.saldo = 50.0;
+        cuenta2.saldo = 50;
 
         System.out.println("Recibo");
         cuenta1.mostrarCuenta();
